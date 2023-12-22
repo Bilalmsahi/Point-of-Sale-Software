@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JSeparator" name="jSeparator3">
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator4">
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator2">
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="jTable3">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="11" rowCount="0">
+                <Column editable="false" title="Product-Id" type="java.lang.String"/>
+                <Column editable="false" title="Product-Name" type="java.lang.String"/>
+                <Column editable="false" title="Quantity" type="java.lang.Integer"/>
+                <Column editable="false" title="P-Cost" type="java.lang.String"/>
+                <Column editable="false" title="P-Price" type="java.lang.String"/>
+                <Column editable="false" title="Brand" type="java.lang.String"/>
+                <Column editable="false" title="P-MIN-Stock" type="java.lang.Integer"/>
+                <Column editable="false" title="P-Exp" type="java.lang.String"/>
+                <Column editable="false" title="P-Catgory" type="java.lang.String"/>
+                <Column editable="false" title="Unit" type="java.lang.String"/>
+                <Column editable="false" title="Discription" type="java.lang.String"/>
+              </Table>
+            </Property>
+            <Property name="columnSelectionAllowed" type="boolean" value="true"/>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jTable3MouseClicked"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[907, 650]"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="jScrollPane1" pref="895" max="32767" attributes="0"/>
+                  <Component id="jScrollPane2" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="jSeparator5" min="-2" pref="71" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jSeparator6" min="-2" pref="43" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jSeparator7" min="-2" pref="22" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jSeparator8" min="-2" pref="10" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="jSeparator9" min="-2" pref="59" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jSeparator10" min="-2" pref="37" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jSeparator11" min="-2" pref="22" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jSeparator12" min="-2" pref="10" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Component id="jSeparator13" alignment="0" max="32767" attributes="0"/>
+          <Component id="jSeparator14" alignment="1" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+              <Component id="jSeparator13" min="-2" pref="3" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                      <Component id="jSeparator8" alignment="0" min="-2" pref="4" max="-2" attributes="0"/>
+                      <Component id="jSeparator6" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jSeparator5" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jSeparator7" alignment="0" min="-2" pref="4" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jLabel1" min="-2" pref="40" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="225" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                      <Component id="jSeparator12" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jSeparator9" alignment="0" min="-2" pref="3" max="-2" attributes="0"/>
+                      <Component id="jSeparator10" alignment="0" min="-2" pref="3" max="-2" attributes="0"/>
+                      <Component id="jSeparator11" alignment="0" min="-2" pref="4" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jLabel2" min="-2" pref="40" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane2" pref="242" max="32767" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jSeparator14" min="-2" pref="3" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="jTable1">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="4" rowCount="4">
+                <Column editable="false" title="Product-Id" type="java.lang.Integer"/>
+                <Column editable="false" title="Product-Name" type="java.lang.String"/>
+                <Column editable="false" title="Quantity" type="java.lang.String"/>
+                <Column editable="false" title="P-MIN-Stock" type="java.lang.String"/>
+              </Table>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor" postCode="try {&#xa;&#xa;&#xa;            Connection connection=DriverManager.getConnection(dbConnection.getDataBaseURL());&#xa;            &#xa;Statement st= connection.createStatement();&#xa;             String sql1=&quot;SELECT P_Id, P_Name,P_Quantity, P_Min_Stock FROM Stock WHERE P_Quantity&lt;=P_Min_Stock&quot;;&#xa;            ResultSet rs =st.executeQuery(sql1);&#xa;            DefaultTableModel tbm =(DefaultTableModel)jTable1.getModel();&#xa;            tbm.setRowCount(0);&#xa;           while(rs.next()){&#xa;            tbm.addRow(new Object[]{rs.getString(1),rs.getString(2),rs.getInt(3),rs.getString(4)});&#xa;           }&#xa;           &#xa;            connection.close();&#xa;        } catch (SQLException ex) {&#xa;            Logger.getLogger(LowStock.class.getName()).log(Level.SEVERE, null, ex);&#xa;        }">
+              <TableColumnModel selectionModel="2">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+              </TableColumnModel>
+            </Property>
+            <Property name="columnSelectionAllowed" type="boolean" value="true"/>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jTable1MouseClicked"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="DefaultTableCellRenderer cr=new DefaultTableCellRenderer();&#xa;cr.setHorizontalAlignment(JLabel.CENTER);cr.setVerticalAlignment(JLabel.CENTER);&#xa;jTable1.setDefaultRenderer(String.class, cr);"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="36" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Low Stock"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator5">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="cc" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator6">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="cc" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator7">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="cc" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator8">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="cc" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="jTable2">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="4" rowCount="0">
+                <Column editable="false" title="Product-Id" type="java.lang.Integer"/>
+                <Column editable="false" title="Product-Name" type="java.lang.String"/>
+                <Column editable="false" title="Expire-Quantity" type="java.lang.String"/>
+                <Column editable="false" title="P-Exp" type="java.lang.String"/>
+              </Table>
+            </Property>
+            <Property name="columnSelectionAllowed" type="boolean" value="true" postCode="DefaultTableCellRenderer cr1=new DefaultTableCellRenderer();&#xa;cr1.setHorizontalAlignment(JLabel.CENTER);cr1.setVerticalAlignment(JLabel.CENTER);&#xa;jTable2.setDefaultRenderer(String.class, cr1);"/>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jTable2MouseClicked"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="try {&#xa; SimpleDateFormat sdf = new SimpleDateFormat(&quot;yyyy-MM-dd&quot;);&#xa;&#xa;&#xa;            Connection connection=DriverManager.getConnection(dbConnection.getDataBaseURL());&#xa;           LocalDate d=LocalDate.now();&#xa;           &#xa;           &#xa;//        Selection of all existing products in system by their Id;  &#xa;&#xa;&#xa; List&lt;Integer&gt; aa; &#xa;                 aa = new ArrayList&lt;&gt;();&#xa;           Statement stt=connection.createStatement();&#xa;          ResultSet rsst=stt.executeQuery(&quot;SELECT Product_Id FROM Products&quot;);&#xa;          while(rsst.next()){&#xa;          aa.add(rsst.getInt(1));&#xa;          }&#xa;          System.out.println(&quot;These are Products&quot;+aa);&#xa;          &#xa;          &#xa;//          Expiary finding Started&#xa;          DefaultTableModel tbm =(DefaultTableModel)jTable2.getModel();&#xa;                                tbm.setRowCount(0);&#xa;           for(int i=0;i&lt;aa.size();i++){&#xa;           &#xa;               &#xa;//               Getting all the data added in StockAdded Table are Selected by their primary key;&#xa;&#xa;           int pid=aa.get(i);&#xa;           List&lt;Integer&gt; ss; &#xa;                 ss = new ArrayList&lt;&gt;();&#xa;                 &#xa;                  Statement st1=connection.createStatement();&#xa;          ResultSet rs1=st1.executeQuery(&quot;SELECT Added_Number FROM StockAdded WHERE P_Id=&apos;&quot;+pid+&quot;&apos;&quot;);&#xa;                 &#xa;          while(rs1.next()){&#xa;          ss.add(rs1.getInt(1));&#xa;          }&#xa;        System.out.println(&quot;This is The indexed number of some product no  &quot;+pid+&quot; ;  &quot;+ss);&#xa;           &#xa;//        Now Starting the sort on the basis of the expiary Date;&#xa;        &#xa;            for(int p=ss.size()-1;p&gt;=0;p--){&#xa;            for(int s=0;s&lt;p;s++){&#xa;                &#xa;//                Getting an Expiary Date for the selected indexes&#xa;            &#xa;                Statement st2=connection.createStatement();&#xa;          ResultSet rs2=st2.executeQuery(&quot;SELECT P_Expiry FROM StockAdded WHERE Added_Number=&apos;&quot;+ss.get(s)+&quot;&apos;&quot;);&#xa;          ResultSet rs3=st2.executeQuery(&quot;SELECT P_Expiry FROM StockAdded WHERE Added_Number=&apos;&quot;+ss.get(p)+&quot;&apos;&quot;);&#xa;          &#xa;          Date exs=null;&#xa;          Date exp=null;&#xa;          while(rs2.next()){&#xa;          exs=rs2.getDate(1);&#xa;          }&#xa;          while(rs3.next()){&#xa;          exp=rs3.getDate(1);&#xa;          }&#xa;          &#xa;       &#xa;          &#xa;                &#xa;                if((exs.compareTo(exp))&lt;0){&#xa;                    int sw=ss.get(s);&#xa;                    ss.set(s, ss.get(p));&#xa;                    ss.set(p, sw);&#xa;                }&#xa;                &#xa;            }&#xa;        }&#xa;       System.out.println(&quot;FINAL  This is the Sorted Array by Date for product &quot;+pid+&quot;:  &quot;+ss);&#xa;        &#xa;//        Getting Quantity and adding it up from stock added table;&#xa;                          ResultSet rs01=st1.executeQuery(&quot;SELECT P_Quantity FROM Stock WHERE P_Id=&apos;&quot;+pid+&quot;&apos;&quot;);&#xa;            int P_Qty=0;   &#xa;            while(rs01.next()){&#xa;            P_Qty+=rs01.getInt(1);&#xa;            }&#xa;            System.out.println(&quot;product total quantity&quot;+P_Qty);&#xa;//Adding if statement here that if stock quantity of a particular product is zero how can be it expire&#xa;&#xa;if(P_Qty!=0){&#xa;            int Add_Qty=0;&#xa;            int break_index=0;&#xa;           for(int y=0;y&lt;ss.size();y++){&#xa;               if(Add_Qty&gt;=P_Qty){&#xa;                   &#xa;                   &#xa;                   break;&#xa;               }else{&#xa;                   &#xa;                  &#xa;              ResultSet rs0=st1.executeQuery(&quot;SELECT P_Quantity FROM StockAdded WHERE Added_Number=&apos;&quot;+ss.get(y)+&quot;&apos;&quot;);&#xa;              while(rs0.next()){&#xa;              Add_Qty+=(rs0.getInt(1));&#xa;              }&#xa;              break_index=y;&#xa;              &#xa;               }&#xa;           }&#xa;           &#xa;                  System.out.println(&quot;product Added quantity&quot;+Add_Qty);&#xa;                  System.out.println(break_index); &#xa;                  &#xa;                  &#xa;                  &#xa;                  &#xa;                        int k=break_index;     &#xa;                    &#xa;                      &#xa;                     System.out.println(k); &#xa;            ResultSet rs02=st1.executeQuery(&quot;SELECT P_Expiry FROM StockAdded WHERE Added_Number=&apos;&quot;+ss.get(k)+&quot;&apos;&quot;);&#xa;            LocalDate ex=null;&#xa;            while(rs02.next()){&#xa;            ex=(rs02.getDate(1).toLocalDate());&#xa;            }&#xa;            System.out.println(ex);&#xa;            System.out.println(d);&#xa;            &#xa;            &#xa;            &#xa;            &#xa;            if(ex.isBefore(d)){&#xa;                System.out.println(&quot;yesss&quot;);&#xa;                        ResultSet rs03=st1.executeQuery(&quot;SELECT P_Quantity FROM StockAdded WHERE Added_Number=&apos;&quot;+ss.get(k)+&quot;&apos;&quot;);&#xa;                        int exxqty=0;&#xa;                        while(rs03.next()){&#xa;                         exxqty=rs03.getInt(1);&#xa;                        }&#xa;                        &#xa;                        int nonexpiryqty=Add_Qty-exxqty;&#xa;                        int expireStock=P_Qty-nonexpiryqty;&#xa;                        &#xa;                        &#xa;                        &#xa;                        &#xa;                        &#xa;                        Statement st= connection.createStatement();&#xa;           String sql1=&quot;SELECT Product_Name FROM Products WHERE Product_Id=&apos;&quot;+pid+&quot;&apos;&quot;;&#xa;            ResultSet rs =st.executeQuery(sql1);&#xa;           while(rs.next()){&#xa;            tbm.addRow(new Object[]{pid,rs.getString(1),expireStock,ex});&#xa;           }&#xa;                        &#xa;            }        &#xa;            &#xa;            &#xa;            &#xa;//            Includeing all of the indexes that are left behind the broken one&#xa;            for(int s=(break_index-1);s&gt;=0;s--){&#xa;                ResultSet rs05=st1.executeQuery(&quot;SELECT P_Expiry FROM StockAdded WHERE Added_Number=&apos;&quot;+ss.get(s)+&quot;&apos;&quot;);&#xa;            LocalDate exx=null;&#xa;            while(rs05.next()){&#xa;            exx=(rs05.getDate(1).toLocalDate());&#xa;            }&#xa;                if(exx.isBefore(d)){&#xa;                System.out.println(&quot;yesss&quot;);&#xa;//                Expire quantity is taking&#xa;                        ResultSet rs03=st1.executeQuery(&quot;SELECT P_Quantity FROM StockAdded WHERE Added_Number=&apos;&quot;+ss.get(s)+&quot;&apos;&quot;);&#xa;                        int exxqty1=0;&#xa;                        while(rs03.next()){&#xa;                         exxqty1=rs03.getInt(1);&#xa;                        }&#xa;                        &#xa;//                        Adding into row&#xa;&#xa;                String sql1=&quot;SELECT Product_Name FROM Products WHERE Product_Id=&apos;&quot;+pid+&quot;&apos;&quot;;&#xa;            ResultSet rs =st1.executeQuery(sql1);&#xa;           while(rs.next()){&#xa;            tbm.addRow(new Object[]{pid,rs.getString(1),exxqty1,exx});&#xa;           }&#xa;                        &#xa;                        &#xa;                &#xa;                }&#xa;                &#xa;            }&#xa;           }&#xa;           &#xa;           }&#xa;           &#xa;           &#xa;&#xa;&#xa;           &#xa;           &#xa;           &#xa;           &#xa;           &#xa;           &#xa;           &#xa;           &#xa;           &#xa;           &#xa;           &#xa;           &#xa;           &#xa;           &#xa;           &#xa;           &#xa;           &#xa;           &#xa;           &#xa;           &#xa;           &#xa;           &#xa;            connection.close();&#xa;        } catch (SQLException ex) {&#xa;            Logger.getLogger(ExpiredStock.class.getName()).log(Level.SEVERE, null, ex);&#xa;        }"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JSeparator" name="jSeparator9">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="cc" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator10">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="cc" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator11">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="cc" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator12">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="cc" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="36" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Expired Stock"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator13">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="cc" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator14">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="cc" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
